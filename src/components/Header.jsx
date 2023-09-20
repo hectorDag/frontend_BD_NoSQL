@@ -4,21 +4,21 @@ import { Link } from 'react-router-dom'
 const Header = () => {
   return (
     <header className='header'>
-        <div className='logo'>
-            <Link to='/'>App de Tareas</Link>
+            <div className="logo">
+                <Link to='/'>App de Tareas</Link>
+            </div>
             <ul>
                 <li>
                     <Link to='/login'>
-                        <FaSignInAlt/>Login
+                        <FaSignInAlt /> Login
                     </Link>
                 </li>
                 <li>
                     <Link to='/register'>
-                        <FaUser/>Register
+                        <FaUser /> Register
                     </Link>
                 </li>
             </ul>
-        </div>
     </header>
   )
 }
