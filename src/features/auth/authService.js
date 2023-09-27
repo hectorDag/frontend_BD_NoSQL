@@ -1,9 +1,6 @@
-import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-import axios from 'axios';
-
-const API_URL = ''
+const API_URL = 'https://vast-blue-jaguar-vest.cyclic.cloud/api/users/'
 
 //registrar un usuario
 const register = async (userData) => {
